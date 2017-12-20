@@ -13,7 +13,7 @@ import com.cmos.ha.cmms.common.tempmsg.dubbo.ITempMsgSlider;
  */
 @Service
 public class TempMsgSlider {
-
+	//这个Dubbo的Reference注解并不会把该接口对应的实现类注册为spring的bean
 	@Reference
 	private ITempMsgSlider tempMsgSlider;
 	
